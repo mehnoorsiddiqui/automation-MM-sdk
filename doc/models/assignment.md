@@ -1,0 +1,29 @@
+
+# Assignment
+
+## Structure
+
+`Assignment`
+
+## Fields
+
+| Name | Type | Tags | Description |
+|  --- | --- | --- | --- |
+| `Id` | `string` | Optional | - |
+| `Metadata` | `Dictionary<string, string>` | Optional | - |
+| `NumberId` | `string` | Optional | - |
+| `Label` | `string` | Optional | - |
+
+## Example (as JSON)
+
+```json
+{
+  "metadata": {
+    "key1": "value1"
+  },
+  "label": "LabelTest0",
+  "id": "be3cb602-7c00-4c87-ae4b-b8defc04f179",
+  "number_id": "b9ee3fe8-2c20-47b1-96e9-c5d12d7ed985"
+}
+```
+
