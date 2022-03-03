@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `DeliveryReports` | [`List<Models.DeliveryReport>`](/doc/models/delivery-report.md) | Optional | The oldest 100 unconfirmed delivery reports<br>**Constraints**: *Minimum Items*: `0`, *Maximum Items*: `100` |
+| `DeliveryReports` | [`List<Models.DeliveryReport>`](../../doc/models/delivery-report.md) | Optional | The oldest 100 unconfirmed delivery reports<br>**Constraints**: *Minimum Items*: `0`, *Maximum Items*: `100` |
 
 ## Example (as JSON)
 

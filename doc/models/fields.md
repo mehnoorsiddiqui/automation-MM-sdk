@@ -9,9 +9,9 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Title` | [`Models.Title`](/doc/models/title.md) | Required | - |
-| `BodyText` | [`Models.BodyText`](/doc/models/body-text.md) | Required | - |
-| `CtaUrl` | [`Models.CtaUrl`](/doc/models/cta-url.md) | Required | - |
+| `Title` | [`Models.Title`](../../doc/models/title.md) | Required | - |
+| `BodyText` | [`Models.BodyText`](../../doc/models/body-text.md) | Required | - |
+| `CtaUrl` | [`Models.CtaUrl`](../../doc/models/cta-url.md) | Required | - |
 
 ## Example (as JSON)
 

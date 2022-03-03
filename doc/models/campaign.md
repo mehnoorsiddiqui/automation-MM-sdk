@@ -11,7 +11,7 @@
 |  --- | --- | --- | --- |
 | `TemplateId` | `string` | Required | Template to use for the landing page |
 | `Parameters` | `object` | Optional | Parameters to use for the landing page and the message content |
-| `Message` | [`Models.MessageTemplate`](/doc/models/message-template.md) | Required | - |
+| `Message` | [`Models.MessageTemplate`](../../doc/models/message-template.md) | Required | - |
 
 ## Example (as JSON)
 

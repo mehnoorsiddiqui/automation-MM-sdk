@@ -11,21 +11,21 @@
 |  --- | --- | --- | --- |
 | `EndDate` | `string` | Optional | End date time for report window. |
 | `StartDate` | `string` | Optional | Start date time for report window. |
-| `SummaryBy` | [`Models.SummaryByEnum?`](/doc/models/summary-by-enum.md) | Optional | Function to apply when summarising results |
-| `SummaryField` | [`Models.SummaryFieldEnum?`](/doc/models/summary-field-enum.md) | Optional | The value of the summary_field parameter provided for this report |
-| `GroupBy` | [`List<Models.GroupByEnum>`](/doc/models/group-by-enum.md) | Optional | List of fields to group results set by |
-| `Period` | [`Models.PeriodEnum?`](/doc/models/period-enum.md) | Optional | Automatically set a date range based on the period value. Can't be combined with start_date and end_date. |
+| `SummaryBy` | [`Models.SummaryByEnum?`](../../doc/models/summary-by-enum.md) | Optional | Function to apply when summarising results |
+| `SummaryField` | [`Models.SummaryFieldEnum?`](../../doc/models/summary-field-enum.md) | Optional | The value of the summary_field parameter provided for this report |
+| `GroupBy` | [`List<Models.GroupByEnum>`](../../doc/models/group-by-enum.md) | Optional | List of fields to group results set by |
+| `Period` | [`Models.PeriodEnum?`](../../doc/models/period-enum.md) | Optional | Automatically set a date range based on the period value. Can't be combined with start_date and end_date. |
 | `Timezone` | `string` | Optional | The timezone to use for the context of the request. |
 | `Accounts` | `List<string>` | Optional | Filter results by a specific account. |
 | `DestinationAddressCountry` | `string` | Optional | Filter results by destination address country. |
 | `DestinationAddress` | `string` | Optional | Filter results by destination address. |
-| `MessageFormat` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
+| `MessageFormat` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
 | `MetadataKey` | `string` | Optional | Filter results for messages that include a metadata key. |
 | `MetadataValue` | `string` | Optional | Filter results for messages that include a metadata key containing this value. If this parameter is provided, the metadata_key parameter must also be provided. |
 | `SourceAddressCountry` | `string` | Optional | Filter results by source address country. |
 | `SourceAddress` | `string` | Optional | Filter results by source address. |
-| `Action` | [`Models.ActionEnum?`](/doc/models/action-enum.md) | Optional | Action that was invoked for this message if any, OPT_OUT, OPT_IN, GLOBAL_OPT_OUT |
-| `DeliveryOptions` | [`List<Models.DeliveryOptionsBody>`](/doc/models/delivery-options-body.md) | Optional | Delivery options for this asynchronous report. |
+| `Action` | [`Models.ActionEnum?`](../../doc/models/action-enum.md) | Optional | Action that was invoked for this message if any, OPT_OUT, OPT_IN, GLOBAL_OPT_OUT |
+| `DeliveryOptions` | [`List<Models.DeliveryOptionsBody>`](../../doc/models/delivery-options-body.md) | Optional | Delivery options for this asynchronous report. |
 
 ## Example (as JSON)
 

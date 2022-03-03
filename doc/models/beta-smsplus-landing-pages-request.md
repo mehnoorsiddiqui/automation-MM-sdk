@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Body` | [`Models.CreateLandingPage`](/doc/models/create-landing-page.md) | Required | - |
+| `Body` | [`Models.CreateLandingPage`](../../doc/models/create-landing-page.md) | Required | - |
 
 ## Example (as JSON)
 

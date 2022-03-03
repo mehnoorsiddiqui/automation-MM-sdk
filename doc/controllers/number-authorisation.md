@@ -13,10 +13,10 @@ NumberAuthorisationController numberAuthorisationController = client.NumberAutho
 
 ## Methods
 
-* [List All Blocked Numbers](/doc/controllers/number-authorisation.md#list-all-blocked-numbers)
-* [Add One or More Numbers to Your Backlist](/doc/controllers/number-authorisation.md#add-one-or-more-numbers-to-your-backlist)
-* [Remove a Number From the Blacklist](/doc/controllers/number-authorisation.md#remove-a-number-from-the-blacklist)
-* [Check If One or Several Numbers Are Currently Blacklisted](/doc/controllers/number-authorisation.md#check-if-one-or-several-numbers-are-currently-blacklisted)
+* [List All Blocked Numbers](../../doc/controllers/number-authorisation.md#list-all-blocked-numbers)
+* [Add One or More Numbers to Your Backlist](../../doc/controllers/number-authorisation.md#add-one-or-more-numbers-to-your-backlist)
+* [Remove a Number From the Blacklist](../../doc/controllers/number-authorisation.md#remove-a-number-from-the-blacklist)
+* [Check If One or Several Numbers Are Currently Blacklisted](../../doc/controllers/number-authorisation.md#check-if-one-or-several-numbers-are-currently-blacklisted)
 
 
 # List All Blocked Numbers
@@ -29,7 +29,7 @@ ListAllBlockedNumbersAsync()
 
 ## Response Type
 
-[`Task<Models.Getnumberauthorisationblacklistresponse>`](/doc/models/getnumberauthorisationblacklistresponse.md)
+[`Task<Models.Getnumberauthorisationblacklistresponse>`](../../doc/models/getnumberauthorisationblacklistresponse.md)
 
 ## Example Usage
 
@@ -61,7 +61,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 
 
 # Add One or More Numbers to Your Backlist
@@ -77,11 +77,11 @@ AddOneOrMoreNumbersToYourBacklistAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Addoneormorenumberstoyourbacklistrequest`](/doc/models/addoneormorenumberstoyourbacklistrequest.md) | Body, Required | Numbers need to be in international format and therefore start with a + |
+| `body` | [`Models.Addoneormorenumberstoyourbacklistrequest`](../../doc/models/addoneormorenumberstoyourbacklistrequest.md) | Body, Required | Numbers need to be in international format and therefore start with a + |
 
 ## Response Type
 
-[`Task<Models.Addoneormorenumberstoyourbacklistresponse>`](/doc/models/addoneormorenumberstoyourbacklistresponse.md)
+[`Task<Models.Addoneormorenumberstoyourbacklistresponse>`](../../doc/models/addoneormorenumberstoyourbacklistresponse.md)
 
 ## Example Usage
 
@@ -165,7 +165,7 @@ CheckIfOneOrSeveralNumbersAreCurrentlyBlacklistedAsync(
 
 ## Response Type
 
-[`Task<Models.Checkifoneorseveralnumbersarecurrentlyblacklistedresponse>`](/doc/models/checkifoneorseveralnumbersarecurrentlyblacklistedresponse.md)
+[`Task<Models.Checkifoneorseveralnumbersarecurrentlyblacklistedresponse>`](../../doc/models/checkifoneorseveralnumbersarecurrentlyblacklistedresponse.md)
 
 ## Example Usage
 

@@ -10,9 +10,9 @@
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `Id` | `string` | Optional | Unique ID for this reply |
-| `MessageType` | [`Models.MessageTypeEnum?`](/doc/models/message-type-enum.md) | Optional | - |
-| `Type` | [`Models.TypeEnum?`](/doc/models/type-enum.md) | Optional | - |
-| `ReportStatus` | [`Models.ReportStatusEnum?`](/doc/models/report-status-enum.md) | Optional | - |
+| `MessageType` | [`Models.MessageTypeEnum?`](../../doc/models/message-type-enum.md) | Optional | - |
+| `Type` | [`Models.TypeEnum?`](../../doc/models/type-enum.md) | Optional | - |
+| `ReportStatus` | [`Models.ReportStatusEnum?`](../../doc/models/report-status-enum.md) | Optional | - |
 | `CreatedDatetime` | `string` | Optional | Date time at which this report was created. |
 | `LastModifiedDatetime` | `string` | Optional | Date time at which this report was last modified. |
 

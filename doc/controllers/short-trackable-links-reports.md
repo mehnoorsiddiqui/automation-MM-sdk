@@ -1,14 +1,14 @@
 # Short Trackable Links Reports
 
-Short Trackable Links is a feature available to [Messaging API](https://developers.messagemedia.com/code/messages-api-documentation/) users whereby it automatically and seamlessly shortens any URL to just 22 characters. Every shortened URL is unique to each recipient.
+Short Trackable Links is a feature available to [Messaging API](../../https://developers.messagemedia.com/code/messages-api-documentation/) users whereby it automatically and seamlessly shortens any URL to just 22 characters. Every shortened URL is unique to each recipient.
 
 The reporting API has endpoints specific to
 this feature, allowing users to obtain details regarding
 the number of click-throughs on each URL.
 
-To enable this feature on your account, contact your account manager or contact support on [support@messagemedia.com](support@messagemedia.com).
+To enable this feature on your account, contact your account manager or contact support on [support@messagemedia.com](../../support@messagemedia.com).
 
-To learn more about the benefits of the Short Trackable Links feature, [visit MessageMedia feature page](https://messagemedia.com/au/feature/short-urls/).
+To learn more about the benefits of the Short Trackable Links feature, [visit MessageMedia feature page](../../https://messagemedia.com/au/feature/short-urls/).
 
 ```csharp
 ShortTrackableLinksReportsController shortTrackableLinksReportsController = client.ShortTrackableLinksReportsController;
@@ -20,8 +20,8 @@ ShortTrackableLinksReportsController shortTrackableLinksReportsController = clie
 
 ## Methods
 
-* [Log Summary](/doc/controllers/short-trackable-links-reports.md#log-summary)
-* [Log Detail](/doc/controllers/short-trackable-links-reports.md#log-detail)
+* [Log Summary](../../doc/controllers/short-trackable-links-reports.md#log-summary)
+* [Log Detail](../../doc/controllers/short-trackable-links-reports.md#log-detail)
 
 
 # Log Summary
@@ -51,7 +51,7 @@ LogSummaryAsync(
 
 ## Response Type
 
-[`Task<Models.LogSummaryResult>`](/doc/models/log-summary-result.md)
+[`Task<Models.LogSummaryResult>`](../../doc/models/log-summary-result.md)
 
 ## Example Usage
 
@@ -120,7 +120,7 @@ LogDetailAsync(
 
 ## Response Type
 
-[`Task<Models.LogsDetailResult>`](/doc/models/logs-detail-result.md)
+[`Task<Models.LogsDetailResult>`](../../doc/models/logs-detail-result.md)
 
 ## Example Usage
 

@@ -135,18 +135,18 @@ MobileLandingPagesBetaController mobileLandingPagesBetaController = client.Mobil
 
 ## Methods
 
-* [Create New Campaign](/doc/controllers/mobile-landing-pages-beta.md#create-new-campaign)
-* [Get Campaign](/doc/controllers/mobile-landing-pages-beta.md#get-campaign)
-* [Createa Landing Page](/doc/controllers/mobile-landing-pages-beta.md#createa-landing-page)
-* [Get Landing Pages](/doc/controllers/mobile-landing-pages-beta.md#get-landing-pages)
-* [Deletea Landing Page](/doc/controllers/mobile-landing-pages-beta.md#deletea-landing-page)
-* [Updatea Landing Page](/doc/controllers/mobile-landing-pages-beta.md#updatea-landing-page)
-* [Get Campaign Summary](/doc/controllers/mobile-landing-pages-beta.md#get-campaign-summary)
-* [Get Campaign Events](/doc/controllers/mobile-landing-pages-beta.md#get-campaign-events)
-* [Get Templates Fields Definition](/doc/controllers/mobile-landing-pages-beta.md#get-templates-fields-definition)
-* [Get Templates](/doc/controllers/mobile-landing-pages-beta.md#get-templates)
-* [Send Campaign to Recipients](/doc/controllers/mobile-landing-pages-beta.md#send-campaign-to-recipients)
-* [Export Campaign Events Async](/doc/controllers/mobile-landing-pages-beta.md#export-campaign-events-async)
+* [Create New Campaign](../../doc/controllers/mobile-landing-pages-beta.md#create-new-campaign)
+* [Get Campaign](../../doc/controllers/mobile-landing-pages-beta.md#get-campaign)
+* [Createa Landing Page](../../doc/controllers/mobile-landing-pages-beta.md#createa-landing-page)
+* [Get Landing Pages](../../doc/controllers/mobile-landing-pages-beta.md#get-landing-pages)
+* [Deletea Landing Page](../../doc/controllers/mobile-landing-pages-beta.md#deletea-landing-page)
+* [Updatea Landing Page](../../doc/controllers/mobile-landing-pages-beta.md#updatea-landing-page)
+* [Get Campaign Summary](../../doc/controllers/mobile-landing-pages-beta.md#get-campaign-summary)
+* [Get Campaign Events](../../doc/controllers/mobile-landing-pages-beta.md#get-campaign-events)
+* [Get Templates Fields Definition](../../doc/controllers/mobile-landing-pages-beta.md#get-templates-fields-definition)
+* [Get Templates](../../doc/controllers/mobile-landing-pages-beta.md#get-templates)
+* [Send Campaign to Recipients](../../doc/controllers/mobile-landing-pages-beta.md#send-campaign-to-recipients)
+* [Export Campaign Events Async](../../doc/controllers/mobile-landing-pages-beta.md#export-campaign-events-async)
 
 
 # Create New Campaign
@@ -162,11 +162,11 @@ CreateNewCampaignAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.BetaSmsplusCampaignsRequest`](/doc/models/beta-smsplus-campaigns-request.md) | Body, Optional | - |
+| `body` | [`Models.BetaSmsplusCampaignsRequest`](../../doc/models/beta-smsplus-campaigns-request.md) | Body, Optional | - |
 
 ## Response Type
 
-[`Task<Models.CreateNewCampaignresponse>`](/doc/models/create-new-campaignresponse.md)
+[`Task<Models.CreateNewCampaignresponse>`](../../doc/models/create-new-campaignresponse.md)
 
 ## Example Usage
 
@@ -235,7 +235,7 @@ GetCampaignAsync(
 
 ## Response Type
 
-[`Task<Models.GetCampaignresponse>`](/doc/models/get-campaignresponse.md)
+[`Task<Models.GetCampaignresponse>`](../../doc/models/get-campaignresponse.md)
 
 ## Example Usage
 
@@ -295,11 +295,11 @@ CreateaLandingPageAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.BetaSmsplusLandingPagesRequest`](/doc/models/beta-smsplus-landing-pages-request.md) | Body, Optional | - |
+| `body` | [`Models.BetaSmsplusLandingPagesRequest`](../../doc/models/beta-smsplus-landing-pages-request.md) | Body, Optional | - |
 
 ## Response Type
 
-[`Task<Models.CreateaLandingPageresponse>`](/doc/models/createa-landing-pageresponse.md)
+[`Task<Models.CreateaLandingPageresponse>`](../../doc/models/createa-landing-pageresponse.md)
 
 ## Example Usage
 
@@ -442,11 +442,11 @@ UpdateaLandingPageAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `id` | `string` | Template, Required | - |
-| `body` | [`Models.BetaSmsplusLandingPagesRequest1`](/doc/models/beta-smsplus-landing-pages-request-1.md) | Body, Optional | - |
+| `body` | [`Models.BetaSmsplusLandingPagesRequest1`](../../doc/models/beta-smsplus-landing-pages-request-1.md) | Body, Optional | - |
 
 ## Response Type
 
-[`Task<Models.UpdateaLandingPageresponse>`](/doc/models/updatea-landing-pageresponse.md)
+[`Task<Models.UpdateaLandingPageresponse>`](../../doc/models/updatea-landing-pageresponse.md)
 
 ## Example Usage
 
@@ -525,7 +525,7 @@ GetCampaignSummaryAsync(
 
 ## Response Type
 
-[`Task<Models.CampaignSummary>`](/doc/models/campaign-summary.md)
+[`Task<Models.CampaignSummary>`](../../doc/models/campaign-summary.md)
 
 ## Example Usage
 
@@ -603,7 +603,7 @@ GetCampaignEventsAsync(
 
 ## Response Type
 
-[`Task<Models.ListCampaignEventPage>`](/doc/models/list-campaign-event-page.md)
+[`Task<Models.ListCampaignEventPage>`](../../doc/models/list-campaign-event-page.md)
 
 ## Example Usage
 
@@ -642,7 +642,7 @@ GetTemplatesFieldsDefinitionAsync(
 
 ## Response Type
 
-[`Task<Models.GetTemplatesFieldsDefinationresponse>`](/doc/models/get-templates-fields-definationresponse.md)
+[`Task<Models.GetTemplatesFieldsDefinationresponse>`](../../doc/models/get-templates-fields-definationresponse.md)
 
 ## Example Usage
 
@@ -778,7 +778,7 @@ GetTemplatesAsync(
 
 ## Response Type
 
-[`Task<Models.GetTemplatesresponse>`](/doc/models/get-templatesresponse.md)
+[`Task<Models.GetTemplatesresponse>`](../../doc/models/get-templatesresponse.md)
 
 ## Example Usage
 
@@ -812,11 +812,11 @@ SendCampaignToRecipientsAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `id` | `string` | Template, Required | - |
-| `body` | [`Models.BetaSmsplusCampaignsRecipientsRequest`](/doc/models/beta-smsplus-campaigns-recipients-request.md) | Body, Optional | - |
+| `body` | [`Models.BetaSmsplusCampaignsRecipientsRequest`](../../doc/models/beta-smsplus-campaigns-recipients-request.md) | Body, Optional | - |
 
 ## Response Type
 
-[`Task<Models.SendCampaignToRecipientsresponse>`](/doc/models/send-campaign-to-recipientsresponse.md)
+[`Task<Models.SendCampaignToRecipientsresponse>`](../../doc/models/send-campaign-to-recipientsresponse.md)
 
 ## Example Usage
 

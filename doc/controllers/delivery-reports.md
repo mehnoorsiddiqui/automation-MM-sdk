@@ -115,8 +115,8 @@ DeliveryReportsController deliveryReportsController = client.DeliveryReportsCont
 
 ## Methods
 
-* [Check Delivery Reports](/doc/controllers/delivery-reports.md#check-delivery-reports)
-* [Confirm Delivery Reports as Received](/doc/controllers/delivery-reports.md#confirm-delivery-reports-as-received)
+* [Check Delivery Reports](../../doc/controllers/delivery-reports.md#check-delivery-reports)
+* [Confirm Delivery Reports as Received](../../doc/controllers/delivery-reports.md#confirm-delivery-reports-as-received)
 
 
 # Check Delivery Reports
@@ -130,7 +130,7 @@ CheckDeliveryReportsAsync()
 
 ## Response Type
 
-[`Task<Models.Checkdeliveryreportsresponse>`](/doc/models/checkdeliveryreportsresponse.md)
+[`Task<Models.Checkdeliveryreportsresponse>`](../../doc/models/checkdeliveryreportsresponse.md)
 
 ## Example Usage
 
@@ -193,8 +193,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Confirm Delivery Reports as Received
@@ -210,7 +210,7 @@ ConfirmDeliveryReportsAsReceivedAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Confirmeliveryreportsasreceivedrequest`](/doc/models/confirmeliveryreportsasreceivedrequest.md) | Body, Required | Delivery reports to confirm as received. |
+| `body` | [`Models.Confirmeliveryreportsasreceivedrequest`](../../doc/models/confirmeliveryreportsasreceivedrequest.md) | Body, Required | Delivery reports to confirm as received. |
 
 ## Response Type
 
@@ -235,7 +235,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Bad request | [`BadrequestException`](/doc/models/badrequest-exception.md) |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 400 | Bad request | [`BadrequestException`](../../doc/models/badrequest-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 

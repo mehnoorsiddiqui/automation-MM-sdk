@@ -12,11 +12,11 @@ A message received for the account specified. This message may be in response to
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `Account` | `string` | Optional | Account associated with this message |
-| `Action` | [`Models.ActionEnum?`](/doc/models/action-enum.md) | Optional | Action that was invoked for this message if any, OPT_OUT, OPT_IN, GLOBAL_OPT_OUT |
+| `Action` | [`Models.ActionEnum?`](../../doc/models/action-enum.md) | Optional | Action that was invoked for this message if any, OPT_OUT, OPT_IN, GLOBAL_OPT_OUT |
 | `Content` | `string` | Optional | Content of the message |
 | `DestinationAddress` | `string` | Optional | Address this message was delivered to. If this message was received in response to a sent message, this is the source address of the sent message |
 | `DestinationAddressCountry` | `string` | Optional | Country associated with the destination address |
-| `Format` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
+| `Format` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
 | `Id` | `string` | Optional | Unique ID for this reply |
 | `InResponseTo` | `string` | Optional | If this message was received in response to a sent message, this is the ID of the sent message |
 | `Metadata` | `object` | Optional | If this message was received in response to a sent message, this is the metadata associated with the sent message |

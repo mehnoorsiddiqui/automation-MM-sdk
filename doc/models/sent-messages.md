@@ -9,9 +9,9 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Data` | [`List<Models.SentMessage>`](/doc/models/sent-message.md) | Optional | List of sent messages |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Optional | - |
-| `Properties` | [`Models.ReportingDetailProperties`](/doc/models/reporting-detail-properties.md) | Optional | - |
+| `Data` | [`List<Models.SentMessage>`](../../doc/models/sent-message.md) | Optional | List of sent messages |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Optional | - |
+| `Properties` | [`Models.ReportingDetailProperties`](../../doc/models/reporting-detail-properties.md) | Optional | - |
 
 ## Example (as JSON)
 

@@ -15,9 +15,9 @@
 | `DestinationNumber` | `string` | Optional | - |
 | `ClickCount` | `double?` | Optional | - |
 | `ViewCount` | `double?` | Optional | - |
-| `Clicks` | [`List<Models.Click>`](/doc/models/click.md) | Optional | - |
-| `Views` | [`List<Models.View>`](/doc/models/view.md) | Optional | - |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Optional | - |
+| `Clicks` | [`List<Models.Click>`](../../doc/models/click.md) | Optional | - |
+| `Views` | [`List<Models.View>`](../../doc/models/view.md) | Optional | - |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Optional | - |
 
 ## Example (as JSON)
 

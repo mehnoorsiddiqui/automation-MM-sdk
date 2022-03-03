@@ -17,7 +17,7 @@
 | `Metadata` | `object` | Optional | Any metadata that was included in the original submit message request |
 | `ReplyId` | `Guid?` | Optional | Unique ID of this reply |
 | `SourceNumber` | `string` | Optional | Address from which this reply was received from<br>**Constraints**: *Minimum Length*: `1`, *Maximum Length*: `15` |
-| `VendorAccountId` | [`Models.VendorAccountId`](/doc/models/vendor-account-id.md) | Optional | - |
+| `VendorAccountId` | [`Models.VendorAccountId`](../../doc/models/vendor-account-id.md) | Optional | - |
 
 ## Example (as JSON)
 

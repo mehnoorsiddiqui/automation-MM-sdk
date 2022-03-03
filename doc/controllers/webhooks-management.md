@@ -70,10 +70,10 @@ WebhooksManagementController webhooksManagementController = client.WebhooksManag
 
 ## Methods
 
-* [Retrieve Webhook](/doc/controllers/webhooks-management.md#retrieve-webhook)
-* [Create Webhook](/doc/controllers/webhooks-management.md#create-webhook)
-* [Delete Webhook](/doc/controllers/webhooks-management.md#delete-webhook)
-* [Update Webhook](/doc/controllers/webhooks-management.md#update-webhook)
+* [Retrieve Webhook](../../doc/controllers/webhooks-management.md#retrieve-webhook)
+* [Create Webhook](../../doc/controllers/webhooks-management.md#create-webhook)
+* [Delete Webhook](../../doc/controllers/webhooks-management.md#delete-webhook)
+* [Update Webhook](../../doc/controllers/webhooks-management.md#update-webhook)
 
 
 # Retrieve Webhook
@@ -111,7 +111,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](/doc/models/update-webhook-400-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](../../doc/models/update-webhook-400-response-exception.md) |
 
 
 # Create Webhook
@@ -127,7 +127,7 @@ CreateWebhookAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.CreateWebhookrequest`](/doc/models/create-webhookrequest.md) | Body, Required | - |
+| `body` | [`Models.CreateWebhookrequest`](../../doc/models/create-webhookrequest.md) | Body, Required | - |
 
 ## Response Type
 
@@ -157,8 +157,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](/doc/models/update-webhook-400-response-exception.md) |
-| 409 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](/doc/models/update-webhook-400-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](../../doc/models/update-webhook-400-response-exception.md) |
+| 409 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](../../doc/models/update-webhook-400-response-exception.md) |
 
 
 # Delete Webhook
@@ -215,7 +215,7 @@ UpdateWebhookAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `webhookId` | `Guid` | Template, Required | - |
-| `body` | [`Models.UpdateWebhookrequest`](/doc/models/update-webhookrequest.md) | Body, Required | - |
+| `body` | [`Models.UpdateWebhookrequest`](../../doc/models/update-webhookrequest.md) | Body, Required | - |
 
 ## Response Type
 
@@ -244,6 +244,6 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](/doc/models/update-webhook-400-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`UpdateWebhook400responseException`](../../doc/models/update-webhook-400-response-exception.md) |
 | 404 | - | `ApiException` |
 

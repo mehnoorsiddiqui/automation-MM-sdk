@@ -29,13 +29,13 @@ SignatureKeyManagementController signatureKeyManagementController = client.Signa
 
 ## Methods
 
-* [Get Signature Key List](/doc/controllers/signature-key-management.md#get-signature-key-list)
-* [Create Signature Key](/doc/controllers/signature-key-management.md#create-signature-key)
-* [Get Signature Key Detail](/doc/controllers/signature-key-management.md#get-signature-key-detail)
-* [Delete Signature Key](/doc/controllers/signature-key-management.md#delete-signature-key)
-* [Get Enabled Signature Key](/doc/controllers/signature-key-management.md#get-enabled-signature-key)
-* [Enable Signature Key](/doc/controllers/signature-key-management.md#enable-signature-key)
-* [Disable the Current Enabled Signature Key](/doc/controllers/signature-key-management.md#disable-the-current-enabled-signature-key)
+* [Get Signature Key List](../../doc/controllers/signature-key-management.md#get-signature-key-list)
+* [Create Signature Key](../../doc/controllers/signature-key-management.md#create-signature-key)
+* [Get Signature Key Detail](../../doc/controllers/signature-key-management.md#get-signature-key-detail)
+* [Delete Signature Key](../../doc/controllers/signature-key-management.md#delete-signature-key)
+* [Get Enabled Signature Key](../../doc/controllers/signature-key-management.md#get-enabled-signature-key)
+* [Enable Signature Key](../../doc/controllers/signature-key-management.md#enable-signature-key)
+* [Disable the Current Enabled Signature Key](../../doc/controllers/signature-key-management.md#disable-the-current-enabled-signature-key)
 
 
 # Get Signature Key List
@@ -57,7 +57,7 @@ GetSignatureKeyListAsync(
 
 ## Response Type
 
-[`Task<List<Models.Getsignaturekeylistresponse>>`](/doc/models/getsignaturekeylistresponse.md)
+[`Task<List<Models.Getsignaturekeylistresponse>>`](../../doc/models/getsignaturekeylistresponse.md)
 
 ## Example Usage
 
@@ -97,8 +97,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](/doc/models/enablesignaturekey-400-response-exception.md) |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](../../doc/models/enablesignaturekey-400-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Create Signature Key
@@ -122,11 +122,11 @@ CreateSignatureKeyAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `accept` | `string` | Header, Required | - |
-| `body` | [`Models.Createsignaturekeyrequest`](/doc/models/createsignaturekeyrequest.md) | Body, Required | - |
+| `body` | [`Models.Createsignaturekeyrequest`](../../doc/models/createsignaturekeyrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.Createsignaturekeyresponse>`](/doc/models/createsignaturekeyresponse.md)
+[`Task<Models.Createsignaturekeyresponse>`](../../doc/models/createsignaturekeyresponse.md)
 
 ## Example Usage
 
@@ -160,8 +160,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](/doc/models/enablesignaturekey-400-response-exception.md) |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](../../doc/models/enablesignaturekey-400-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Get Signature Key Detail
@@ -181,7 +181,7 @@ GetSignatureKeyDetailAsync(
 
 ## Response Type
 
-[`Task<Models.Getsignaturekeydetailresponse>`](/doc/models/getsignaturekeydetailresponse.md)
+[`Task<Models.Getsignaturekeydetailresponse>`](../../doc/models/getsignaturekeydetailresponse.md)
 
 ## Example Usage
 
@@ -211,9 +211,9 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](/doc/models/enablesignaturekey-400-response-exception.md) |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](../../doc/models/enablesignaturekey-400-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Delete Signature Key
@@ -251,8 +251,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Get Enabled Signature Key
@@ -265,7 +265,7 @@ GetEnabledSignatureKeyAsync()
 
 ## Response Type
 
-[`Task<Models.Getenabledsignaturekeyresponse>`](/doc/models/getenabledsignaturekeyresponse.md)
+[`Task<Models.Getenabledsignaturekeyresponse>`](../../doc/models/getenabledsignaturekeyresponse.md)
 
 ## Example Usage
 
@@ -293,8 +293,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Enable Signature Key
@@ -314,11 +314,11 @@ EnableSignatureKeyAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `accept` | `string` | Header, Required | - |
-| `body` | [`Models.Enablesignaturekeyrequest`](/doc/models/enablesignaturekeyrequest.md) | Body, Required | - |
+| `body` | [`Models.Enablesignaturekeyrequest`](../../doc/models/enablesignaturekeyrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.Enablesignaturekeyresponse>`](/doc/models/enablesignaturekeyresponse.md)
+[`Task<Models.Enablesignaturekeyresponse>`](../../doc/models/enablesignaturekeyresponse.md)
 
 ## Example Usage
 
@@ -350,9 +350,9 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](/doc/models/enablesignaturekey-400-response-exception.md) |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`Enablesignaturekey400responseException`](../../doc/models/enablesignaturekey-400-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 
 
 # Disable the Current Enabled Signature Key
@@ -383,5 +383,5 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](/doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`Disablethecurrentenabledsignaturekey403responseException`](../../doc/models/disablethecurrentenabledsignaturekey-403-response-exception.md) |
 

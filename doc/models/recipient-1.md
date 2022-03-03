@@ -11,7 +11,7 @@
 |  --- | --- | --- | --- |
 | `Id` | `string` | Required | - |
 | `Number` | `string` | Required | - |
-| `Parameters` | [`Models.Parameters2`](/doc/models/parameters-2.md) | Required | - |
+| `Parameters` | [`Models.Parameters2`](../../doc/models/parameters-2.md) | Required | - |
 
 ## Example (as JSON)
 

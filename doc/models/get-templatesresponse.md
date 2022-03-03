@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Templates` | [`List<Models.Template>`](/doc/models/template.md) | Required | - |
-| `Pagination` | [`Models.Pagination2`](/doc/models/pagination-2.md) | Required | - |
+| `Templates` | [`List<Models.Template>`](../../doc/models/template.md) | Required | - |
+| `Pagination` | [`Models.Pagination2`](../../doc/models/pagination-2.md) | Required | - |
 
 ## Example (as JSON)
 

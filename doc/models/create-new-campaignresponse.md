@@ -11,8 +11,8 @@
 |  --- | --- | --- | --- |
 | `Id` | `string` | Required | - |
 | `TemplateId` | `string` | Required | - |
-| `Parameters` | [`Models.Parameters`](/doc/models/parameters.md) | Required | - |
-| `Message` | [`Models.Message`](/doc/models/message.md) | Required | - |
+| `Parameters` | [`Models.Parameters`](../../doc/models/parameters.md) | Required | - |
+| `Message` | [`Models.Message`](../../doc/models/message.md) | Required | - |
 
 ## Example (as JSON)
 

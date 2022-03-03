@@ -11,7 +11,7 @@
 |  --- | --- | --- | --- |
 | `Uri` | `string` | Required | - |
 | `Numbers` | `List<string>` | Required | - |
-| `Pagination` | [`Models.Pagination3`](/doc/models/pagination-3.md) | Required | - |
+| `Pagination` | [`Models.Pagination3`](../../doc/models/pagination-3.md) | Required | - |
 
 ## Example (as JSON)
 

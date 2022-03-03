@@ -12,7 +12,7 @@ Metadata key response
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `Data` | `List<string>` | Optional | - |
-| `Properties` | [`Models.Properties`](/doc/models/properties.md) | Optional | - |
+| `Properties` | [`Models.Properties`](../../doc/models/properties.md) | Optional | - |
 
 ## Example (as JSON)
 

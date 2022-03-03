@@ -10,12 +10,12 @@
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `AvailableAfter` | `DateTime?` | Optional | - |
-| `Capabilities` | [`List<Models.CapabilityEnum>`](/doc/models/capability-enum.md) | Optional | - |
-| `Classification` | [`Models.ClassificationEnum?`](/doc/models/classification-enum.md) | Optional | - |
+| `Capabilities` | [`List<Models.CapabilityEnum>`](../../doc/models/capability-enum.md) | Optional | - |
+| `Classification` | [`Models.ClassificationEnum?`](../../doc/models/classification-enum.md) | Optional | - |
 | `Country` | `string` | Optional | - |
 | `Id` | `string` | Optional | - |
 | `PhoneNumber` | `string` | Optional | - |
-| `Type` | [`Models.Type1Enum?`](/doc/models/type-1-enum.md) | Optional | - |
+| `Type` | [`Models.Type1Enum?`](../../doc/models/type-1-enum.md) | Optional | - |
 
 ## Example (as JSON)
 

@@ -10,8 +10,8 @@ RepliesController repliesController = client.RepliesController;
 
 ## Methods
 
-* [Confirm Replies as Received](/doc/controllers/replies.md#confirm-replies-as-received)
-* [Check Replies](/doc/controllers/replies.md#check-replies)
+* [Confirm Replies as Received](../../doc/controllers/replies.md#confirm-replies-as-received)
+* [Check Replies](../../doc/controllers/replies.md#check-replies)
 
 
 # Confirm Replies as Received
@@ -27,7 +27,7 @@ ConfirmRepliesAsReceivedAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Confirmrepliesasreceivedrequest`](/doc/models/confirmrepliesasreceivedrequest.md) | Body, Required | - |
+| `body` | [`Models.Confirmrepliesasreceivedrequest`](../../doc/models/confirmrepliesasreceivedrequest.md) | Body, Required | - |
 
 ## Response Type
 
@@ -52,9 +52,9 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Bad request | [`BadrequestException`](/doc/models/badrequest-exception.md) |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 400 | Bad request | [`BadrequestException`](../../doc/models/badrequest-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Check Replies
@@ -70,7 +70,7 @@ CheckRepliesAsync()
 
 ## Response Type
 
-[`Task<Models.Checkrepliesresponse>`](/doc/models/checkrepliesresponse.md)
+[`Task<Models.Checkrepliesresponse>`](../../doc/models/checkrepliesresponse.md)
 
 ## Example Usage
 
@@ -129,6 +129,6 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 

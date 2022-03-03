@@ -57,7 +57,7 @@ The generated SDK also contain one or more Tests, which are contained in the Tes
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -79,27 +79,27 @@ This API uses `Basic Authentication`.
 
 ## List of APIs
 
-* [Messages](/doc/controllers/messages.md)
-* [Delivery Reports](/doc/controllers/delivery-reports.md)
-* [Replies](/doc/controllers/replies.md)
-* [Lookups](/doc/controllers/lookups.md)
-* [Number Authorisation](/doc/controllers/number-authorisation.md)
-* [Dedicated Numbers](/doc/controllers/dedicated-numbers.md)
-* [Messaging Reports](/doc/controllers/messaging-reports.md)
-* [Short Trackable Links Reports](/doc/controllers/short-trackable-links-reports.md)
-* [Webhooks Management](/doc/controllers/webhooks-management.md)
-* [Signature Key Management](/doc/controllers/signature-key-management.md)
-* [Mobile Landing Pages Beta](/doc/controllers/mobile-landing-pages-beta.md)
+* [Messages](doc/controllers/messages.md)
+* [Delivery Reports](doc/controllers/delivery-reports.md)
+* [Replies](doc/controllers/replies.md)
+* [Lookups](doc/controllers/lookups.md)
+* [Number Authorisation](doc/controllers/number-authorisation.md)
+* [Dedicated Numbers](doc/controllers/dedicated-numbers.md)
+* [Messaging Reports](doc/controllers/messaging-reports.md)
+* [Short Trackable Links Reports](doc/controllers/short-trackable-links-reports.md)
+* [Webhooks Management](doc/controllers/webhooks-management.md)
+* [Signature Key Management](doc/controllers/signature-key-management.md)
+* [Mobile Landing Pages Beta](doc/controllers/mobile-landing-pages-beta.md)
 
 ## Classes Documentation
 
-* [Utility Classes](/doc/utility-classes.md)
-* [HttpRequest](/doc/http-request.md)
-* [HttpResponse](/doc/http-response.md)
-* [HttpStringResponse](/doc/http-string-response.md)
-* [HttpContext](/doc/http-context.md)
-* [HttpClientConfiguration](/doc/http-client-configuration.md)
-* [HttpClientConfiguration Builder](/doc/http-client-configuration-builder.md)
-* [IAuthManager](/doc/i-auth-manager.md)
-* [ApiException](/doc/api-exception.md)
+* [Utility Classes](doc/utility-classes.md)
+* [HttpRequest](doc/http-request.md)
+* [HttpResponse](doc/http-response.md)
+* [HttpStringResponse](doc/http-string-response.md)
+* [HttpContext](doc/http-context.md)
+* [HttpClientConfiguration](doc/http-client-configuration.md)
+* [HttpClientConfiguration Builder](doc/http-client-configuration-builder.md)
+* [IAuthManager](doc/i-auth-manager.md)
+* [ApiException](doc/api-exception.md)
 

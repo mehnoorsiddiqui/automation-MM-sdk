@@ -2,9 +2,9 @@
 
 The Numbers API allows your to purchase, provision and configure the dedicated numbers assigned to your MessageMedia account.
 
-To learn more about the benefits of dedicated numbers, and their use cases, visit [feature page](https://messagemedia.com/au/feature/dedicated-virtual-numbers/).
+To learn more about the benefits of dedicated numbers, and their use cases, visit [feature page](../../https://messagemedia.com/au/feature/dedicated-virtual-numbers/).
 
-This is a paid feature and must be enabled on your account. Please contact [support@messagemedia.com](support@messagemedia.com) or MessageMedia account manager.
+This is a paid feature and must be enabled on your account. Please contact [support@messagemedia.com](../../support@messagemedia.com) or MessageMedia account manager.
 
 ## Concepts
 
@@ -33,13 +33,13 @@ DedicatedNumbersController dedicatedNumbersController = client.DedicatedNumbersC
 
 ## Methods
 
-* [Get Number by Id](/doc/controllers/dedicated-numbers.md#get-number-by-id)
-* [Get Assignment](/doc/controllers/dedicated-numbers.md#get-assignment)
-* [Create Assignment](/doc/controllers/dedicated-numbers.md#create-assignment)
-* [Delete Assignment](/doc/controllers/dedicated-numbers.md#delete-assignment)
-* [Update Assignment](/doc/controllers/dedicated-numbers.md#update-assignment)
-* [Get Numbers](/doc/controllers/dedicated-numbers.md#get-numbers)
-* [Get Assigned Numbers](/doc/controllers/dedicated-numbers.md#get-assigned-numbers)
+* [Get Number by Id](../../doc/controllers/dedicated-numbers.md#get-number-by-id)
+* [Get Assignment](../../doc/controllers/dedicated-numbers.md#get-assignment)
+* [Create Assignment](../../doc/controllers/dedicated-numbers.md#create-assignment)
+* [Delete Assignment](../../doc/controllers/dedicated-numbers.md#delete-assignment)
+* [Update Assignment](../../doc/controllers/dedicated-numbers.md#update-assignment)
+* [Get Numbers](../../doc/controllers/dedicated-numbers.md#get-numbers)
+* [Get Assigned Numbers](../../doc/controllers/dedicated-numbers.md#get-assigned-numbers)
 
 
 # Get Number by Id
@@ -97,8 +97,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Get Assignment
@@ -120,7 +120,7 @@ GetAssignmentAsync(
 
 ## Response Type
 
-[`Task<Models.Assignment>`](/doc/models/assignment.md)
+[`Task<Models.Assignment>`](../../doc/models/assignment.md)
 
 ## Example Usage
 
@@ -152,8 +152,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Create Assignment
@@ -180,11 +180,11 @@ CreateAssignmentAsync(
 |  --- | --- | --- | --- |
 | `numberId` | `string` | Template, Required | unique identifier |
 | `accept` | `string` | Header, Required | - |
-| `body` | [`Models.CreateAssignmentrequest`](/doc/models/create-assignmentrequest.md) | Body, Required | - |
+| `body` | [`Models.CreateAssignmentrequest`](../../doc/models/create-assignmentrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.Assignment>`](/doc/models/assignment.md)
+[`Task<Models.Assignment>`](../../doc/models/assignment.md)
 
 ## Example Usage
 
@@ -217,8 +217,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Unexpected error in API call. See HTTP response body for details. | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Delete Assignment
@@ -259,7 +259,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 
 
 # Update Assignment
@@ -279,11 +279,11 @@ UpdateAssignmentAsync(
 |  --- | --- | --- | --- |
 | `numberId` | `string` | Template, Required | unique identifier |
 | `accept` | `string` | Header, Required | - |
-| `body` | [`Models.UpdateAssignmentrequest`](/doc/models/update-assignmentrequest.md) | Body, Required | - |
+| `body` | [`Models.UpdateAssignmentrequest`](../../doc/models/update-assignmentrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.Assignment>`](/doc/models/assignment.md)
+[`Task<Models.Assignment>`](../../doc/models/assignment.md)
 
 ## Example Usage
 
@@ -316,7 +316,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 
 
 # Get Numbers
@@ -339,12 +339,12 @@ GetNumbersAsync(
 | `country` | `string` | Query, Optional | ISO_3166 country code, 2 character code to filter available numbers by country |
 | `matching` | `string` | Query, Optional | filters results by a pattern of digits contained within the number |
 | `pageSize` | `int?` | Query, Optional | number of results returned per page, default 50 |
-| `serviceTypes` | [`Models.ServiceTypesEnum?`](/doc/models/service-types-enum.md) | Query, Optional | filter results to include numbers with certain capabilities |
+| `serviceTypes` | [`Models.ServiceTypesEnum?`](../../doc/models/service-types-enum.md) | Query, Optional | filter results to include numbers with certain capabilities |
 | `token` | `string` | Query, Optional | In paginated data the original request will return with a "next_token" attribute. This token must be entered into subsequent call in the "token" query parameter to obtain the next set of records. |
 
 ## Response Type
 
-[`Task<Models.NumbersListResponse>`](/doc/models/numbers-list-response.md)
+[`Task<Models.NumbersListResponse>`](../../doc/models/numbers-list-response.md)
 
 ## Example Usage
 
@@ -390,7 +390,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 403 | Unexpected error in API call. See HTTP response body for details. | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 
 
 # Get Assigned Numbers
@@ -423,16 +423,16 @@ GetAssignedNumbersAsync(
 | `numberId` | `string` | Query, Optional | Unique identifier of a specific number |
 | `matching` | `string` | Query, Optional | Filters results by a pattern of digits contained within the number |
 | `country` | `string` | Query, Optional | Filter results by ISO_3166 country code, 2 character code to filter available numbers by country |
-| `type` | [`Models.Type1Enum?`](/doc/models/type-1-enum.md) | Query, Optional | Filter results by Number type |
-| `classification` | [`Models.ClassificationEnum?`](/doc/models/classification-enum.md) | Query, Optional | Filter results by Number Classification |
-| `serviceTypes` | [`Models.ServiceTypesEnum?`](/doc/models/service-types-enum.md) | Query, Optional | Filter results by capabilities |
+| `type` | [`Models.Type1Enum?`](../../doc/models/type-1-enum.md) | Query, Optional | Filter results by Number type |
+| `classification` | [`Models.ClassificationEnum?`](../../doc/models/classification-enum.md) | Query, Optional | Filter results by Number Classification |
+| `serviceTypes` | [`Models.ServiceTypesEnum?`](../../doc/models/service-types-enum.md) | Query, Optional | Filter results by capabilities |
 | `label` | `string` | Query, Optional | Filter results by a matching label |
-| `sortBy` | [`Models.SortByEnum?`](/doc/models/sort-by-enum.md) | Query, Optional | Sort results by property |
-| `sortDirection` | [`Models.SortDirectionEnum?`](/doc/models/sort-direction-enum.md) | Query, Optional | Sort direction |
+| `sortBy` | [`Models.SortByEnum?`](../../doc/models/sort-by-enum.md) | Query, Optional | Sort results by property |
+| `sortDirection` | [`Models.SortDirectionEnum?`](../../doc/models/sort-direction-enum.md) | Query, Optional | Sort direction |
 
 ## Response Type
 
-[`Task<Models.AssignedNumberListResponse>`](/doc/models/assigned-number-list-response.md)
+[`Task<Models.AssignedNumberListResponse>`](../../doc/models/assigned-number-list-response.md)
 
 ## Example Usage
 
@@ -458,5 +458,5 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 

@@ -15,7 +15,7 @@
 | `DeliveryReport` | `bool?` | Optional | Indicates if a delivery report was requested for this message |
 | `DestinationAddress` | `string` | Optional | Address this message was delivered to |
 | `DestinationAddressCountry` | `string` | Optional | Country associated with the destination address |
-| `Format` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
+| `Format` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Optional | Format of message, SMS or TTS (Text To Speech) |
 | `Id` | `string` | Optional | Unique ID for this message |
 | `InResponseTo` | `string` | Optional | If this message was sent in response to a received message (an auto response message for example) this is the ID of the received message. |
 | `Metadata` | `object` | Optional | Metadata associated with this message |

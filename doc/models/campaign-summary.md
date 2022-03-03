@@ -11,7 +11,7 @@
 |  --- | --- | --- | --- |
 | `TotalEvents` | `double` | Required | The total number of events record against this campaign. |
 | `UniqueEngagements` | `double` | Required | The unique number of recipients for which there exists at least one recorded event. |
-| `EventSummary` | [`List<Models.EventSummary>`](/doc/models/event-summary.md) | Required | The event summary breakdown. |
+| `EventSummary` | [`List<Models.EventSummary>`](../../doc/models/event-summary.md) | Required | The event summary breakdown. |
 
 ## Example (as JSON)
 

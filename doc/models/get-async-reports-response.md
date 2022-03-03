@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Data` | [`List<Models.AsyncReport>`](/doc/models/async-report.md) | Optional | List of asynchronous reports |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Optional | - |
+| `Data` | [`List<Models.AsyncReport>`](../../doc/models/async-report.md) | Optional | List of asynchronous reports |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Optional | - |
 
 ## Example (as JSON)
 

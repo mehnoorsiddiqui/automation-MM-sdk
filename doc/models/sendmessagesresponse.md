@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Messages` | [`List<Models.Message>`](/doc/models/message.md) | Optional | **Constraints**: *Maximum Items*: `100` |
+| `Messages` | [`List<Models.Message>`](../../doc/models/message.md) | Optional | **Constraints**: *Maximum Items*: `100` |
 
 ## Example (as JSON)
 

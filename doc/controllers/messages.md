@@ -17,14 +17,14 @@ MessagesController messagesController = client.MessagesController;
 
 ## Methods
 
-* [Cancel Scheduled Message](/doc/controllers/messages.md#cancel-scheduled-message)
-* [Get Message Status](/doc/controllers/messages.md#get-message-status)
-* [Send Messages](/doc/controllers/messages.md#send-messages)
+* [Cancel Scheduled Message](../../doc/controllers/messages.md#cancel-scheduled-message)
+* [Get Message Status](../../doc/controllers/messages.md#get-message-status)
+* [Send Messages](../../doc/controllers/messages.md#send-messages)
 
 
 # Cancel Scheduled Message
 
-Cancel a scheduled message that has not yet been delivered.
+Cancel a scheduled message that has not yet been .
 
 A scheduled message can be cancelled by updating the status of a message
 from `scheduled` to `cancelled`.
@@ -40,7 +40,7 @@ CancelScheduledMessageAsync(
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
 | `messageId` | `string` | Template, Required | 35 character UUID. |
-| `body` | [`Models.Cancelscheduledmessagerequest`](/doc/models/cancelscheduledmessagerequest.md) | Body, Required | Parameters of a message to change. |
+| `body` | [`Models.Cancelscheduledmessagerequest`](../../doc/models/cancelscheduledmessagerequest.md) | Body, Required | Parameters of a message to change. |
 
 ## Response Type
 
@@ -64,9 +64,9 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Bad request | [`BadrequestException`](/doc/models/badrequest-exception.md) |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 400 | Bad request | [`BadrequestException`](../../doc/models/badrequest-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Get Message Status
@@ -86,7 +86,7 @@ GetMessageStatusAsync(
 
 ## Response Type
 
-[`Task<Models.Getmessagestatusresponse>`](/doc/models/getmessagestatusresponse.md)
+[`Task<Models.Getmessagestatusresponse>`](../../doc/models/getmessagestatusresponse.md)
 
 ## Example Usage
 
@@ -126,8 +126,8 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`ResourcenotfoundException`](/doc/models/resourcenotfound-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`ResourcenotfoundException`](../../doc/models/resourcenotfound-exception.md) |
 
 
 # Send Messages
@@ -145,11 +145,11 @@ SendMessagesAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Sendmessagesrequest`](/doc/models/sendmessagesrequest.md) | Body, Required | - |
+| `body` | [`Models.Sendmessagesrequest`](../../doc/models/sendmessagesrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.Sendmessagesresponse>`](/doc/models/sendmessagesresponse.md)
+[`Task<Models.Sendmessagesresponse>`](../../doc/models/sendmessagesresponse.md)
 
 ## Example Usage
 
@@ -202,6 +202,6 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Unexpected error in API call. See HTTP response body for details. | [`BadrequestException`](/doc/models/badrequest-exception.md) |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
+| 400 | Unexpected error in API call. See HTTP response body for details. | [`BadrequestException`](../../doc/models/badrequest-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
 

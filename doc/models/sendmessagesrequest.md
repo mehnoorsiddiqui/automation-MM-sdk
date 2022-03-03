@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Messages` | [`List<Models.Message>`](/doc/models/message.md) | Required | - |
+| `Messages` | [`List<Models.Message>`](../../doc/models/message.md) | Required | - |
 
 ## Example (as JSON)
 

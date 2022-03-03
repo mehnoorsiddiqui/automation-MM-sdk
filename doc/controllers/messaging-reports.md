@@ -22,18 +22,18 @@ MessagingReportsController messagingReportsController = client.MessagingReportsC
 
 ## Methods
 
-* [Get Async Report Data by Id](/doc/controllers/messaging-reports.md#get-async-report-data-by-id)
-* [Submit Received Messages Detail](/doc/controllers/messaging-reports.md#submit-received-messages-detail)
-* [Get Received Messages Summary](/doc/controllers/messaging-reports.md#get-received-messages-summary)
-* [Get Async Report by Id](/doc/controllers/messaging-reports.md#get-async-report-by-id)
-* [Get Sent Messages Detail](/doc/controllers/messaging-reports.md#get-sent-messages-detail)
-* [Submit Sent Messages Summary](/doc/controllers/messaging-reports.md#submit-sent-messages-summary)
-* [Get Sent Messages Summary](/doc/controllers/messaging-reports.md#get-sent-messages-summary)
-* [Get Metadata Keys](/doc/controllers/messaging-reports.md#get-metadata-keys)
-* [Get Async Reports](/doc/controllers/messaging-reports.md#get-async-reports)
-* [Get Received Messages Detail](/doc/controllers/messaging-reports.md#get-received-messages-detail)
-* [Submit Sent Messages Detail](/doc/controllers/messaging-reports.md#submit-sent-messages-detail)
-* [Submit Received Messages Summary](/doc/controllers/messaging-reports.md#submit-received-messages-summary)
+* [Get Async Report Data by Id](../../doc/controllers/messaging-reports.md#get-async-report-data-by-id)
+* [Submit Received Messages Detail](../../doc/controllers/messaging-reports.md#submit-received-messages-detail)
+* [Get Received Messages Summary](../../doc/controllers/messaging-reports.md#get-received-messages-summary)
+* [Get Async Report by Id](../../doc/controllers/messaging-reports.md#get-async-report-by-id)
+* [Get Sent Messages Detail](../../doc/controllers/messaging-reports.md#get-sent-messages-detail)
+* [Submit Sent Messages Summary](../../doc/controllers/messaging-reports.md#submit-sent-messages-summary)
+* [Get Sent Messages Summary](../../doc/controllers/messaging-reports.md#get-sent-messages-summary)
+* [Get Metadata Keys](../../doc/controllers/messaging-reports.md#get-metadata-keys)
+* [Get Async Reports](../../doc/controllers/messaging-reports.md#get-async-reports)
+* [Get Received Messages Detail](../../doc/controllers/messaging-reports.md#get-received-messages-detail)
+* [Submit Sent Messages Detail](../../doc/controllers/messaging-reports.md#submit-sent-messages-detail)
+* [Submit Received Messages Summary](../../doc/controllers/messaging-reports.md#submit-received-messages-summary)
 
 
 # Get Async Report Data by Id
@@ -88,11 +88,11 @@ SubmitReceivedMessagesDetailAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Asyncreceivedmessagesdetailrequest`](/doc/models/asyncreceivedmessagesdetailrequest.md) | Body, Required | - |
+| `body` | [`Models.Asyncreceivedmessagesdetailrequest`](../../doc/models/asyncreceivedmessagesdetailrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.AsyncReportResponse>`](/doc/models/async-report-response.md)
+[`Task<Models.AsyncReportResponse>`](../../doc/models/async-report-response.md)
 
 ## Example Usage
 
@@ -152,22 +152,22 @@ GetReceivedMessagesSummaryAsync(
 |  --- | --- | --- | --- |
 | `endDate` | `string` | Query, Required | End date time for report window. |
 | `startDate` | `string` | Query, Required | Start date time for report window. |
-| `groupBy` | [`Models.GroupByEnum`](/doc/models/group-by-enum.md) | Query, Required | List of fields to group results set by{array} |
+| `groupBy` | [`Models.GroupByEnum`](../../doc/models/group-by-enum.md) | Query, Required | List of fields to group results set by{array} |
 | `accounts` | `List<string>` | Query, Optional | Filter results by a specific account. |
 | `destinationAddressCountry` | `string` | Query, Optional | Filter results by destination address country. |
 | `destinationAddress` | `string` | Query, Optional | Filter results by destination address. |
-| `messageFormat` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
+| `messageFormat` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
 | `metadataKey` | `string` | Query, Optional | Filter results for messages that include a metadata key. |
 | `metadataValue` | `string` | Query, Optional | Filter results for messages that include a metadata key containing this value. If this parameter is provided, the metadata_key parameter must also be provided. |
-| `summaryBy` | [`Models.SummaryByEnum?`](/doc/models/summary-by-enum.md) | Query, Optional | Function to apply when summarising results |
-| `summaryField` | [`Models.SummaryFieldEnum?`](/doc/models/summary-field-enum.md) | Query, Optional | Field to summarise results by |
+| `summaryBy` | [`Models.SummaryByEnum?`](../../doc/models/summary-by-enum.md) | Query, Optional | Function to apply when summarising results |
+| `summaryField` | [`Models.SummaryFieldEnum?`](../../doc/models/summary-field-enum.md) | Query, Optional | Field to summarise results by |
 | `sourceAddressCountry` | `string` | Query, Optional | Filter results by source address country. |
 | `sourceAddress` | `string` | Query, Optional | Filter results by source address. |
 | `timezone` | `string` | Query, Optional | The timezone to use for the context of the request. |
 
 ## Response Type
 
-[`Task<Models.SummaryReport>`](/doc/models/summary-report.md)
+[`Task<Models.SummaryReport>`](../../doc/models/summary-report.md)
 
 ## Example Usage
 
@@ -226,7 +226,7 @@ GetAsyncReportByIdAsync(
 
 ## Response Type
 
-[`Task<Models.AsyncReport>`](/doc/models/async-report.md)
+[`Task<Models.AsyncReport>`](../../doc/models/async-report.md)
 
 ## Example Usage
 
@@ -294,23 +294,23 @@ GetSentMessagesDetailAsync(
 | `deliveryReport` | `bool?` | Query, Optional | Filter results by delivery report. |
 | `destinationAddressCountry` | `string` | Query, Optional | Filter results by destination address country. |
 | `destinationAddress` | `string` | Query, Optional | Filter results by destination address. |
-| `messageFormat` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
+| `messageFormat` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
 | `metadataKey` | `string` | Query, Optional | Filter results for messages that include a metadata key. |
 | `metadataValue` | `string` | Query, Optional | Filter results for messages that include a metadata key containing this value. If this parameter is provided, the metadata_key parameter must also be provided. |
 | `statusCode` | `string` | Query, Optional | Filter results by message status code. |
-| `status` | [`Models.Status1Enum?`](/doc/models/status-1-enum.md) | Query, Optional | Filter results by message status. Can't be combined with statuses. |
-| `statuses` | [`Models.StatusesEnum?`](/doc/models/statuses-enum.md) | Query, Optional | Filter results by message status. Can't be combined with status.{array} |
+| `status` | [`Models.Status1Enum?`](../../doc/models/status-1-enum.md) | Query, Optional | Filter results by message status. Can't be combined with statuses. |
+| `statuses` | [`Models.StatusesEnum?`](../../doc/models/statuses-enum.md) | Query, Optional | Filter results by message status. Can't be combined with status.{array} |
 | `page` | `double?` | Query, Optional | Page number for paging through paginated result sets. |
 | `pageSize` | `double?` | Query, Optional | Number of results to return in a page for paginated result sets. |
-| `sortBy` | [`Models.SortByEnum?`](/doc/models/sort-by-enum.md) | Query, Optional | Field to sort results set by |
-| `sortDirection` | [`Models.SortDirectionEnum?`](/doc/models/sort-direction-enum.md) | Query, Optional | Order to sort results by. |
+| `sortBy` | [`Models.SortByEnum?`](../../doc/models/sort-by-enum.md) | Query, Optional | Field to sort results set by |
+| `sortDirection` | [`Models.SortDirectionEnum?`](../../doc/models/sort-direction-enum.md) | Query, Optional | Order to sort results by. |
 | `sourceAddressCountry` | `string` | Query, Optional | Filter results by source address country. |
 | `sourceAddress` | `string` | Query, Optional | Filter results by source address. |
 | `timezone` | `string` | Query, Optional | The timezone to use for the context of the request. |
 
 ## Response Type
 
-[`Task<Models.SentMessages>`](/doc/models/sent-messages.md)
+[`Task<Models.SentMessages>`](../../doc/models/sent-messages.md)
 
 ## Example Usage
 
@@ -350,11 +350,11 @@ SubmitSentMessagesSummaryAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Asyncsentmessagesrequest`](/doc/models/asyncsentmessagesrequest.md) | Body, Required | - |
+| `body` | [`Models.Asyncsentmessagesrequest`](../../doc/models/asyncsentmessagesrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.AsyncReportResponse>`](/doc/models/async-report-response.md)
+[`Task<Models.AsyncReportResponse>`](../../doc/models/async-report-response.md)
 
 ## Example Usage
 
@@ -362,7 +362,7 @@ SubmitSentMessagesSummaryAsync(
 var body = new Asyncsentmessagesrequest();
 body.EndDate = "2021-11-28T13:30:00.000";
 body.StartDate = "2021-11-12T13:30:00.000";
-body.GroupBy = new List<GroupByEnum?>();
+body.GroupBy = new List<GroupByEnum>();
 body.GroupBy.Add(GroupByEnum.HOUR);
 
 try
@@ -418,14 +418,14 @@ GetSentMessagesSummaryAsync(
 |  --- | --- | --- | --- |
 | `endDate` | `string` | Query, Required | End date time for report window. |
 | `startDate` | `string` | Query, Required | Start date time for report window. |
-| `groupBy` | [`Models.GroupByEnum`](/doc/models/group-by-enum.md) | Query, Required | List of fields to group results set by{array} |
+| `groupBy` | [`Models.GroupByEnum`](../../doc/models/group-by-enum.md) | Query, Required | List of fields to group results set by{array} |
 | `accounts` | `List<string>` | Query, Optional | Filter results by a specific account. By default results<br><br>will be returned for the account associated with the authentication<br><br>credentials and all sub accounts. |
 | `deliveryReport` | `bool?` | Query, Optional | Filter results by delivery report. |
 | `destinationAddressCountry` | `string` | Query, Optional | Filter results by destination address country. |
 | `destinationAddress` | `string` | Query, Optional | Filter results by destination address. |
-| `summaryBy` | [`Models.SummaryByEnum?`](/doc/models/summary-by-enum.md) | Query, Optional | Function to apply when summarising results |
-| `summaryField` | [`Models.SummaryFieldEnum?`](/doc/models/summary-field-enum.md) | Query, Optional | Field to summarise results by |
-| `messageFormat` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
+| `summaryBy` | [`Models.SummaryByEnum?`](../../doc/models/summary-by-enum.md) | Query, Optional | Function to apply when summarising results |
+| `summaryField` | [`Models.SummaryFieldEnum?`](../../doc/models/summary-field-enum.md) | Query, Optional | Field to summarise results by |
+| `messageFormat` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
 | `metadataKey` | `string` | Query, Optional | Filter results for messages that include a metadata key. |
 | `metadataValue` | `string` | Query, Optional | Filter results for messages that include a metadata key containing this value. If this parameter is provided, the metadata_key parameter must also be provided. |
 | `statusCode` | `string` | Query, Optional | Filter results by message status code. |
@@ -435,7 +435,7 @@ GetSentMessagesSummaryAsync(
 
 ## Response Type
 
-[`Task<Models.SummaryReport>`](/doc/models/summary-report.md)
+[`Task<Models.SummaryReport>`](../../doc/models/summary-report.md)
 
 ## Example Usage
 
@@ -494,7 +494,7 @@ GetMetadataKeysAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `messageType` | [`Models.MessageTypeEnum`](/doc/models/message-type-enum.md) | Template, Required | Message type. Possible values are sent messages and received messages. |
+| `messageType` | [`Models.MessageTypeEnum`](../../doc/models/message-type-enum.md) | Template, Required | Message type. Possible values are sent messages and received messages. |
 | `startDate` | `string` | Query, Required | Start date time for report window. |
 | `endDate` | `string` | Query, Required | End date time for report window. |
 | `accounts` | `List<string>` | Query, Optional | Filter results by a specific account. |
@@ -502,7 +502,7 @@ GetMetadataKeysAsync(
 
 ## Response Type
 
-[`Task<Models.MetadataKeysResponse>`](/doc/models/metadata-keys-response.md)
+[`Task<Models.MetadataKeysResponse>`](../../doc/models/metadata-keys-response.md)
 
 ## Example Usage
 
@@ -557,7 +557,7 @@ GetAsyncReportsAsync(
 
 ## Response Type
 
-[`Task<Models.GetAsyncReportsResponse>`](/doc/models/get-async-reports-response.md)
+[`Task<Models.GetAsyncReportsResponse>`](../../doc/models/get-async-reports-response.md)
 
 ## Example Usage
 
@@ -615,23 +615,23 @@ GetReceivedMessagesDetailAsync(
 | `endDate` | `string` | Query, Required | End date time for report window. |
 | `startDate` | `string` | Query, Required | Start date time for report window. |
 | `accounts` | `List<string>` | Query, Optional | Filter results by a specific account. |
-| `action` | [`Models.ActionEnum?`](/doc/models/action-enum.md) | Query, Optional | Filter results by the action that was invoked for this message. |
+| `action` | [`Models.ActionEnum?`](../../doc/models/action-enum.md) | Query, Optional | Filter results by the action that was invoked for this message. |
 | `destinationAddressCountry` | `string` | Query, Optional | Filter results by destination address country. |
 | `destinationAddress` | `string` | Query, Optional | Filter results by destination address. |
-| `messageFormat` | [`Models.Format1Enum?`](/doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
+| `messageFormat` | [`Models.Format1Enum?`](../../doc/models/format-1-enum.md) | Query, Optional | Filter results by message format. |
 | `metadataKey` | `string` | Query, Optional | Filter results for messages that include a metadata key. |
 | `metadataValue` | `string` | Query, Optional | Filter results for messages that include a metadata key containing this value. If this parameter is provided, the metadata_key parameter must also be provided. |
 | `page` | `double?` | Query, Optional | Page number for paging through paginated result sets. |
 | `pageSize` | `double?` | Query, Optional | Number of results to return in a page for paginated result sets. |
-| `sortBy` | [`Models.SortByEnum?`](/doc/models/sort-by-enum.md) | Query, Optional | Field to sort results set by |
-| `sortDirection` | [`Models.SortDirectionEnum?`](/doc/models/sort-direction-enum.md) | Query, Optional | Order to sort results by. |
+| `sortBy` | [`Models.SortByEnum?`](../../doc/models/sort-by-enum.md) | Query, Optional | Field to sort results set by |
+| `sortDirection` | [`Models.SortDirectionEnum?`](../../doc/models/sort-direction-enum.md) | Query, Optional | Order to sort results by. |
 | `sourceAddressCountry` | `string` | Query, Optional | Filter results by source address country. |
 | `sourceAddress` | `string` | Query, Optional | Filter results by source address. |
 | `timezone` | `string` | Query, Optional | The timezone to use for the context of the request. |
 
 ## Response Type
 
-[`Task<Models.ReceivedMessages>`](/doc/models/received-messages.md)
+[`Task<Models.ReceivedMessages>`](../../doc/models/received-messages.md)
 
 ## Example Usage
 
@@ -670,11 +670,11 @@ SubmitSentMessagesDetailAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Asyncsentmessagesdetailrequest`](/doc/models/asyncsentmessagesdetailrequest.md) | Body, Required | - |
+| `body` | [`Models.Asyncsentmessagesdetailrequest`](../../doc/models/asyncsentmessagesdetailrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.AsyncReportResponse>`](/doc/models/async-report-response.md)
+[`Task<Models.AsyncReportResponse>`](../../doc/models/async-report-response.md)
 
 ## Example Usage
 
@@ -720,11 +720,11 @@ SubmitReceivedMessagesSummaryAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `body` | [`Models.Asyncreceivedmessagessummaryrequest`](/doc/models/asyncreceivedmessagessummaryrequest.md) | Body, Required | - |
+| `body` | [`Models.Asyncreceivedmessagessummaryrequest`](../../doc/models/asyncreceivedmessagessummaryrequest.md) | Body, Required | - |
 
 ## Response Type
 
-[`Task<Models.AsyncReportResponse>`](/doc/models/async-report-response.md)
+[`Task<Models.AsyncReportResponse>`](../../doc/models/async-report-response.md)
 
 ## Example Usage
 
@@ -734,7 +734,7 @@ body.EndDate = "2021-11-28T13:30:00.000";
 body.StartDate = "2021-11-12T13:30:00.000";
 body.SummaryBy = SummaryByEnum.COUNT;
 body.SummaryField = SummaryFieldEnum.MESSAGEID;
-body.GroupBy = new List<GroupByEnum?>();
+body.GroupBy = new List<GroupByEnum>();
 body.GroupBy.Add(GroupByEnum.DAY);
 
 try

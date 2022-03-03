@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Data` | [`List<Models.Number1>`](/doc/models/number-1.md) | Optional | - |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Optional | - |
+| `Data` | [`List<Models.Number1>`](../../doc/models/number-1.md) | Optional | - |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Optional | - |
 
 ## Example (as JSON)
 

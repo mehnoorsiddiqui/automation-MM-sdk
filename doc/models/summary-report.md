@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Properties` | [`Models.Properties33`](/doc/models/properties-33.md) | Optional | - |
-| `Data` | [`List<Models.SummaryReportItem>`](/doc/models/summary-report-item.md) | Optional | - |
+| `Properties` | [`Models.Properties33`](../../doc/models/properties-33.md) | Optional | - |
+| `Data` | [`List<Models.SummaryReportItem>`](../../doc/models/summary-report-item.md) | Optional | - |
 
 ## Example (as JSON)
 

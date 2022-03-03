@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Replies` | [`List<Models.Reply>`](/doc/models/reply.md) | Optional | The oldest 100 unconfirmed replies<br>**Constraints**: *Minimum Items*: `0`, *Maximum Items*: `100` |
+| `Replies` | [`List<Models.Reply>`](../../doc/models/reply.md) | Optional | The oldest 100 unconfirmed replies<br>**Constraints**: *Minimum Items*: `0`, *Maximum Items*: `100` |
 
 ## Example (as JSON)
 

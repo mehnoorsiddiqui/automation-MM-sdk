@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Recipients` | [`List<Models.Recipient1>`](/doc/models/recipient-1.md) | Required | - |
+| `Recipients` | [`List<Models.Recipient1>`](../../doc/models/recipient-1.md) | Required | - |
 
 ## Example (as JSON)
 

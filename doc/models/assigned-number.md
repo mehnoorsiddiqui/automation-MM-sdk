@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Assignment` | [`Models.Assignment`](/doc/models/assignment.md) | Optional | - |
+| `Assignment` | [`Models.Assignment`](../../doc/models/assignment.md) | Optional | - |
 | `Number` | `object` | Optional | - |
 
 ## Example (as JSON)

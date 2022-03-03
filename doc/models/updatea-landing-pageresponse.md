@@ -12,8 +12,8 @@
 | `Id` | `string` | Required | - |
 | `Name` | `string` | Required | - |
 | `TemplateId` | `string` | Required | - |
-| `Parameters` | [`Models.Parameters4`](/doc/models/parameters-4.md) | Required | - |
-| `Fields` | [`Models.Fields`](/doc/models/fields.md) | Required | - |
+| `Parameters` | [`Models.Parameters4`](../../doc/models/parameters-4.md) | Required | - |
+| `Fields` | [`Models.Fields`](../../doc/models/fields.md) | Required | - |
 | `CreatedTimestamp` | `string` | Required | - |
 | `ModifiedTimestamp` | `string` | Required | - |
 

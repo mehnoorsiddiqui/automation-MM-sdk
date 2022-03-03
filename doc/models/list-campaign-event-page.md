@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Events` | [`List<Models.CampaignEvent>`](/doc/models/campaign-event.md) | Required | The list of campaign events. |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Required | - |
+| `Events` | [`List<Models.CampaignEvent>`](../../doc/models/campaign-event.md) | Required | The list of campaign events. |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Required | - |
 
 ## Example (as JSON)
 

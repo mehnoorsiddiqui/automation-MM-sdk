@@ -11,7 +11,7 @@
 |  --- | --- | --- | --- |
 | `Page` | `int` | Required | - |
 | `PageSize` | `int` | Required | - |
-| `PageData` | [`List<Models.PageDatum>`](/doc/models/page-datum.md) | Required | - |
+| `PageData` | [`List<Models.PageDatum>`](../../doc/models/page-datum.md) | Required | - |
 
 ## Example (as JSON)
 

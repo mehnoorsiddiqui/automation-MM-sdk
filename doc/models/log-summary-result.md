@@ -14,8 +14,8 @@
 | `TotalViews` | `double?` | Optional | - |
 | `UniqueViews` | `double?` | Optional | - |
 | `ShortUrlsGenerated` | `double?` | Optional | - |
-| `ShortUrls` | [`List<Models.ShortUrl>`](/doc/models/short-url.md) | Optional | - |
-| `Pagination` | [`Models.Pagination1`](/doc/models/pagination-1.md) | Optional | - |
+| `ShortUrls` | [`List<Models.ShortUrl>`](../../doc/models/short-url.md) | Optional | - |
+| `Pagination` | [`Models.Pagination1`](../../doc/models/pagination-1.md) | Optional | - |
 
 ## Example (as JSON)
 

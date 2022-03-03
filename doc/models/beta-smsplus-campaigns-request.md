@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Body` | [`Models.Campaign`](/doc/models/campaign.md) | Required | - |
+| `Body` | [`Models.Campaign`](../../doc/models/campaign.md) | Required | - |
 
 ## Example (as JSON)
 

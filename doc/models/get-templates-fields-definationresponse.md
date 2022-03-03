@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Fields` | [`Models.Fields2`](/doc/models/fields-2.md) | Required | - |
+| `Fields` | [`Models.Fields2`](../../doc/models/fields-2.md) | Required | - |
 
 ## Example (as JSON)
 

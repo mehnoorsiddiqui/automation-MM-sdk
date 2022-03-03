@@ -6,7 +6,7 @@ MessageMedia Lookups API provides a simple way to keep your database clean. It a
 * Separate mobiles and landlines, so you don’t pay for messages that will never be delivered
 * Identify carriers to determine which are low cost
 
-To learn more about the benefits of the Lookups API, [visit product page](https://www.messagemedia.com/au/feature/lookups/).
+To learn more about the benefits of the Lookups API, [visit product page](../../https://www.messagemedia.com/au/feature/lookups/).
 
 ![Lookups](https://developers.messagemedia.com/wp-content/uploads/2017/11/lookups-api.png)
 
@@ -65,7 +65,7 @@ LookupAPhoneNumberAsync(
 
 ## Response Type
 
-[`Task<Models.Lookupaphonenumberresponse>`](/doc/models/lookupaphonenumberresponse.md)
+[`Task<Models.Lookupaphonenumberresponse>`](../../doc/models/lookupaphonenumberresponse.md)
 
 ## Example Usage
 
@@ -97,7 +97,7 @@ catch (ApiException e){};
 
 | HTTP Status Code | Error Description | Exception Class |
 |  --- | --- | --- |
-| 400 | Bad request | [`BadrequestException`](/doc/models/badrequest-exception.md) |
-| 403 | Unauthorised | [`M403responseException`](/doc/models/m403-response-exception.md) |
-| 404 | Resource not found | [`Lookupaphonenumber404responseException`](/doc/models/lookupaphonenumber-404-response-exception.md) |
+| 400 | Bad request | [`BadrequestException`](../../doc/models/badrequest-exception.md) |
+| 403 | Unauthorised | [`M403responseException`](../../doc/models/m403-response-exception.md) |
+| 404 | Resource not found | [`Lookupaphonenumber404responseException`](../../doc/models/lookupaphonenumber-404-response-exception.md) |
 

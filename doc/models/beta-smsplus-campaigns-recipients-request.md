@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `Body` | [`Models.SendCampaignToRecipientsrequest`](/doc/models/send-campaign-to-recipientsrequest.md) | Required | - |
+| `Body` | [`Models.SendCampaignToRecipientsrequest`](../../doc/models/send-campaign-to-recipientsrequest.md) | Required | - |
 
 ## Example (as JSON)
 
