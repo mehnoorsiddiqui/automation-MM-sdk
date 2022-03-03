@@ -39,7 +39,7 @@ namespace MessageMedia.Standard.Controllers
         }
 
         /// <summary>
-        /// Cancel a scheduled message that has not yet been .
+        /// Cancel a scheduled message that has not yet been delivered.
         /// A scheduled message can be cancelled by updating the status of a message.
         /// from ```scheduled``` to ```cancelled```.
         /// </summary>
@@ -54,7 +54,7 @@ namespace MessageMedia.Standard.Controllers
         }
 
         /// <summary>
-        /// Cancel a scheduled message that has not yet been .
+        /// Cancel a scheduled message that has not yet been delivered.
         /// A scheduled message can be cancelled by updating the status of a message.
         /// from ```scheduled``` to ```cancelled```.
         /// </summary>
