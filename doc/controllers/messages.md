@@ -24,7 +24,7 @@ MessagesController messagesController = client.MessagesController;
 
 # Cancel Scheduled Message
 
-Cancel a scheduled message that has not yet been .
+Cancel a scheduled message that has not yet been delivered .
 
 A scheduled message can be cancelled by updating the status of a message
 from `scheduled` to `cancelled`.
