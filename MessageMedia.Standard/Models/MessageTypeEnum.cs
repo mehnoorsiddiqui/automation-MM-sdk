@@ -28,6 +28,6 @@ namespace MessageMedia.Standard.Models
         /// RECEIVEDMESSAGES.
         /// </summary>
         [EnumMember(Value = "RECEIVED_MESSAGES")]
-        RECEIVEDMESSAGES,
+        RECEIVEDMESSAGES
     }
 }

@@ -34,6 +34,6 @@ namespace MessageMedia.Standard.Models
         /// TTS.
         /// </summary>
         [EnumMember(Value = "TTS")]
-        TTS,
+        TTS
     }
 }

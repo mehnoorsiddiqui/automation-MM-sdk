@@ -28,6 +28,6 @@ namespace MessageMedia.Standard.Models
         /// DESCENDING.
         /// </summary>
         [EnumMember(Value = "DESCENDING")]
-        DESCENDING,
+        DESCENDING
     }
 }

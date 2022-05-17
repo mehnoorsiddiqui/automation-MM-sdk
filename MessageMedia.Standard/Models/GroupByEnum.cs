@@ -106,6 +106,6 @@ namespace MessageMedia.Standard.Models
         /// ACCOUNT.
         /// </summary>
         [EnumMember(Value = "ACCOUNT")]
-        ACCOUNT,
+        ACCOUNT
     }
 }

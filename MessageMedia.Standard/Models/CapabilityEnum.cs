@@ -34,6 +34,6 @@ namespace MessageMedia.Standard.Models
         /// MMS.
         /// </summary>
         [EnumMember(Value = "MMS")]
-        MMS,
+        MMS
     }
 }

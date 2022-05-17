@@ -40,6 +40,6 @@ namespace MessageMedia.Standard.Models
         /// GLOBALOPTOUT.
         /// </summary>
         [EnumMember(Value = "GLOBAL_OPT_OUT")]
-        GLOBALOPTOUT,
+        GLOBALOPTOUT
     }
 }

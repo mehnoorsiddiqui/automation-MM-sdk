@@ -28,6 +28,6 @@ namespace MessageMedia.Standard.Models
         /// DETAIL.
         /// </summary>
         [EnumMember(Value = "DETAIL")]
-        DETAIL,
+        DETAIL
     }
 }

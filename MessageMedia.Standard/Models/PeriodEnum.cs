@@ -64,6 +64,6 @@ namespace MessageMedia.Standard.Models
         /// LAST30DAYS.
         /// </summary>
         [EnumMember(Value = "LAST_30_DAYS")]
-        LAST30DAYS,
+        LAST30DAYS
     }
 }

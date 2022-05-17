@@ -2,9 +2,9 @@
 
 The Numbers API allows your to purchase, provision and configure the dedicated numbers assigned to your MessageMedia account.
 
-To learn more about the benefits of dedicated numbers, and their use cases, visit [feature page](../../https://messagemedia.com/au/feature/dedicated-virtual-numbers/).
+To learn more about the benefits of dedicated numbers, and their use cases, visit [feature page](https://messagemedia.com/au/feature/dedicated-virtual-numbers/).
 
-This is a paid feature and must be enabled on your account. Please contact [support@messagemedia.com](../../support@messagemedia.com) or MessageMedia account manager.
+This is a paid feature and must be enabled on your account. Please contact [support@messagemedia.com](support@messagemedia.com) or MessageMedia account manager.
 
 ## Concepts
 

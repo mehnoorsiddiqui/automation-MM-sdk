@@ -82,6 +82,6 @@ namespace MessageMedia.Standard.Models
         /// SUBMITTED.
         /// </summary>
         [EnumMember(Value = "SUBMITTED")]
-        SUBMITTED,
+        SUBMITTED
     }
 }

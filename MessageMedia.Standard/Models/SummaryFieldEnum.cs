@@ -28,6 +28,6 @@ namespace MessageMedia.Standard.Models
         /// MESSAGEID.
         /// </summary>
         [EnumMember(Value = "MESSAGE_ID")]
-        MESSAGEID,
+        MESSAGEID
     }
 }

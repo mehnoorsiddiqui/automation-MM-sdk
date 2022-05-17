@@ -22,6 +22,6 @@ namespace MessageMedia.Standard.Models
         /// EnumApplicationjson.
         /// </summary>
         [EnumMember(Value = "application/json")]
-        EnumApplicationjson,
+        EnumApplicationjson
     }
 }

@@ -17,6 +17,7 @@ namespace MessageMedia.Standard.Controllers
     using MessageMedia.Standard.Exceptions;
     using MessageMedia.Standard.Http.Client;
     using MessageMedia.Standard.Http.Request;
+    using MessageMedia.Standard.Http.Request.Configuration;
     using MessageMedia.Standard.Http.Response;
     using MessageMedia.Standard.Utilities;
     using Newtonsoft.Json.Converters;
@@ -39,7 +40,7 @@ namespace MessageMedia.Standard.Controllers
         }
 
         /// <summary>
-        /// Cancel a scheduled message that has not yet been  .
+        /// Cancel a scheduled message that has not yet been delivered.
         /// A scheduled message can be cancelled by updating the status of a message.
         /// from ```scheduled``` to ```cancelled```.
         /// </summary>
@@ -54,7 +55,7 @@ namespace MessageMedia.Standard.Controllers
         }
 
         /// <summary>
-        /// Cancel a scheduled message that has not yet been  .
+        /// Cancel a scheduled message that has not yet been delivered.
         /// A scheduled message can be cancelled by updating the status of a message.
         /// from ```scheduled``` to ```cancelled```.
         /// </summary>
@@ -101,7 +102,7 @@ namespace MessageMedia.Standard.Controllers
             httpRequest = await this.AuthManagers["global"].ApplyAsync(httpRequest).ConfigureAwait(false);
 
             // invoke request and get response.
-            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken).ConfigureAwait(false);
+            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken: cancellationToken).ConfigureAwait(false);
             HttpContext context = new HttpContext(httpRequest, response);
             if (this.HttpCallBack != null)
             {
@@ -181,7 +182,7 @@ namespace MessageMedia.Standard.Controllers
             httpRequest = await this.AuthManagers["global"].ApplyAsync(httpRequest).ConfigureAwait(false);
 
             // invoke request and get response.
-            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken).ConfigureAwait(false);
+            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken: cancellationToken).ConfigureAwait(false);
             HttpContext context = new HttpContext(httpRequest, response);
             if (this.HttpCallBack != null)
             {
@@ -258,7 +259,7 @@ namespace MessageMedia.Standard.Controllers
             httpRequest = await this.AuthManagers["global"].ApplyAsync(httpRequest).ConfigureAwait(false);
 
             // invoke request and get response.
-            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken).ConfigureAwait(false);
+            HttpStringResponse response = await this.GetClientInstance().ExecuteAsStringAsync(httpRequest, cancellationToken: cancellationToken).ConfigureAwait(false);
             HttpContext context = new HttpContext(httpRequest, response);
             if (this.HttpCallBack != null)
             {

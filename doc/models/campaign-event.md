@@ -12,7 +12,7 @@
 | `CampaignId` | `string` | Required | The campaign ID |
 | `RecipientId` | `string` | Required | The recipient ID to which this event corresponds to |
 | `Number` | `string` | Required | The recipient's phone number |
-| `Event` | `string` | Required | The event type.  See [Event Types](../../#events-types) for a list of available events. |
+| `Event` | `string` | Required | The event type.  See [Event Types](#events-types) for a list of available events. |
 | `Source` | `string` | Optional | The source identifier.  This identifies the element that produced the event.  This may not be applicable for all events. |
 | `Timestamp` | `string` | Required | The timestamp of the event, in ISO 8601 format. |
 

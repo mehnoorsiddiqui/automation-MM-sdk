@@ -34,6 +34,6 @@ namespace MessageMedia.Standard.Models
         /// GOLD.
         /// </summary>
         [EnumMember(Value = "GOLD")]
-        GOLD,
+        GOLD
     }
 }

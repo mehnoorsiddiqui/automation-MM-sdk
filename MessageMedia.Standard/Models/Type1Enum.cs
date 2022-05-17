@@ -40,6 +40,6 @@ namespace MessageMedia.Standard.Models
         /// SHORTCODE.
         /// </summary>
         [EnumMember(Value = "SHORT_CODE")]
-        SHORTCODE,
+        SHORTCODE
     }
 }

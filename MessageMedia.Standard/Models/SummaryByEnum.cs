@@ -22,6 +22,6 @@ namespace MessageMedia.Standard.Models
         /// COUNT.
         /// </summary>
         [EnumMember(Value = "COUNT")]
-        COUNT,
+        COUNT
     }
 }

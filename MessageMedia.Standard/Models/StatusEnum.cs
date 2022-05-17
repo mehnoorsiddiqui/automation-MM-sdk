@@ -82,6 +82,6 @@ namespace MessageMedia.Standard.Models
         /// Failed.
         /// </summary>
         [EnumMember(Value = "failed")]
-        Failed,
+        Failed
     }
 }

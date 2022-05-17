@@ -64,6 +64,6 @@ namespace MessageMedia.Standard.Models
         /// TIMESTAMP.
         /// </summary>
         [EnumMember(Value = "TIMESTAMP")]
-        TIMESTAMP,
+        TIMESTAMP
     }
 }

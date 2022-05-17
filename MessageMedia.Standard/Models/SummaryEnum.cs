@@ -28,6 +28,6 @@ namespace MessageMedia.Standard.Models
         /// SUM.
         /// </summary>
         [EnumMember(Value = "SUM")]
-        SUM,
+        SUM
     }
 }

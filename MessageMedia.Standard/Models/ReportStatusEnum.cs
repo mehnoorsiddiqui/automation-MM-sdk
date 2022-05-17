@@ -40,6 +40,6 @@ namespace MessageMedia.Standard.Models
         /// DONE.
         /// </summary>
         [EnumMember(Value = "DONE")]
-        DONE,
+        DONE
     }
 }
